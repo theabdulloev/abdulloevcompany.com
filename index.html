@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IA GROUP</title>
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700&family=Roboto:wght@100;400&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="iagroup" id="iagroup">
+      <header id="header">
+        <div class="container">
+          <div class="header_content">
+            <div class="logo">
+              <a href="#main_first"><img src="img/ia-logo.png" alt="ialogo" /></a>
+             
+            </div>
+            <nav>
+              <ul class="menu_link">
+                <li class="menu_item"><a href="#">О компание </a></li>
+                <li class="menu_item"><a href="#main_third">Услуги</a></li>
+                <li class="menu_item"><a href="#">Подход к работе</a></li>
+                <li class="menu_item">
+                  <span class="dropbtn">Проекты</span>
+                  <div id="myDropdown" class="dropdown-content">
+                    <a
+                      id="droplink"
+                      href="https://abdulloev19.github.io/facemash.tj/"
+                      >Facemash tj</a
+                    >
+                    <br />
+                    <a
+                      id="droplink"
+                      href="https://abdulloev19.github.io/onlineshop/"
+                      >Online shop</a
+                    ><br />
+                    <a
+                      id="droplink"
+                      href="https://abdulloev19.github.io/porten/"
+                      >Porten</a
+                    >
+                  </div>
+                </li>
+                <li class="menu_item"><a href="#">Клиенты</a></li>
+                <li class="menu_item"><a href="#">Контакты</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <div class="main_first" id="main_first">
+        <div class="container">
+          <div class="main_first_content">
+            <h2>Эксперты в разработке сайтов и мобильных приложений</h2>
+            <!--  -->
+          </div>
+        </div>
+      </div>
+      <div class="main_second">
+        <div class="container">
+          <div class="main_second_content">
+            <p>
+              Spice up your type with CSS
+              <span>
+                Ismoiljon Abdulloev
+              </span>
+              &mdash; no JavaScript required &mdash;
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="main_four">
+        <div class="container">
+          <div class="main_four_content">
+            <div class="container_main"  v-bind:class="{threetr: threetr, twotr: twotr, fourtr : fourtr, onetr : onetr}">
+              <div class="one side">
+                <h1  @click="twotr=true"><svgr></svgr></h1>      
+                <h2  @click="twotr=false"><svgl></svgl></h2>      
+                  <div class="content">
+                    <h1>Проекты</h1>
+                    <div class="content_one">
+                      <div class="content_one_item">
+                        <a href="https://abdulloev19.github.io/facemash.tj/">Facemash.tj</a>
+                      </div>
+                      <div class="content_one_item">
+                        <a href="https://abdulloev19.github.io/onlineshop/">Online Shop</a>
+                      </div>
+                      <div class="content_one_item">
+                        <a href="https://abdulloev19.github.io/test.tj/">Test.tj</a>
+                      </div>
+                    </div>
+                    <div class="footer_content_one">
+                      <h2>Посмотреть все проекты</h2>
+                    </div>
+                  </div>
+              </div>
+              <div class="two side">
+                <h1 @click="threetr=true; twotr = false"><svgr></svgr></h1>
+                <h2 @click="twotr=false"><svgl></svgl></h2>
+                  <div class="content">
+                    <h1>Ismoiljon Abdulloev</h1>
+                  </div>
+              </div>
+              
+              <div class="three side">
+                <h1 @click="fourtr=true; threetr= false"><svgr></svgr></h1>   
+                <h2 @click="threetr=true"><svgl></svgl></h2>   
+                <div class="content">
+
+                </div>
+            </div>
+              <div class="four side">
+                <h1 @click="twotr = false; threetr = false; fourtr = false"><svgr></svgr></h1>    
+                <h2 @click="twotr = false; threetr = false; fourtr = false"><svgl></svvl></h2>    
+                <div class="content">
+                  
+                </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="main_third" id="main_third">
+        <div class="container">
+          <div class="main_third_content">
+            <div class="picContainer">
+              <image1></image1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="js/vue.global.prod.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
