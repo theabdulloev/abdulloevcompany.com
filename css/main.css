@@ -50,6 +50,7 @@
     border-bottom: 1px solid #fff;
 } */
 
+
 header {
   width: 100vw;
   height: 50px;
@@ -205,7 +206,8 @@ header {
 
 /* Clip Background Image */
 
-	  background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+	  background: url(../img/slogan.png) repeat-y;
+	  /* background-color: #c83333; */
 	  -webkit-background-clip: text;
 	  background-clip: text;
 
@@ -236,10 +238,10 @@ header {
   background: rgba(15, 15, 15, 0.6);
   background: linear-gradient(
       0deg,
-      rgba(15, 15, 15, 0.633),
-      rgba(15, 15, 15, 0.592)
+      rgba(15, 15, 15, 0.500),
+      rgba(15, 15, 15, 1)
     ),
-    url(../img/back3.jpg);
+    url(../img/design2.jpg);
   background-size: cover;
 }
 
