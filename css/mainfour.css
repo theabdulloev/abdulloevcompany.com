@@ -45,7 +45,13 @@
 
 .one {
     z-index: 2;
-    background: linear-gradient(588deg,rgb(10, 41, 41),rgb(214, 25, 15));
+    /* background: linear-gradient(588deg,rgb(10, 41, 41),rgb(214, 25, 15)); */
+    background: linear-gradient(
+      0deg,
+      rgba(15, 15, 15, 0.8),
+      rgba(15, 15, 15, 0.8)
+    ),
+    url(../img/back3.jpg);
   }
   
 .two{
@@ -56,20 +62,32 @@
       rgba(15, 15, 15, 0.8),
       rgba(15, 15, 15, 0.8)
     ),
-    url(../img/back3.jpg);
+    url(../img/android.jpg);
     /*background: linear-gradient(588deg,rgb(10, 41, 41),rgb(214, 25, 15));*/
   }
   
 .three {
     transform: rotateY(180deg);
     z-index: 1;
-    background: linear-gradient(588deg,rgb(10, 41, 41),rgb(214, 25, 15));
+    /* background: linear-gradient(588deg,rgb(10, 41, 41),rgb(214, 25, 15)); */
+    background: linear-gradient(
+      0deg,
+      rgba(15, 15, 15, 0.8),
+      rgba(15, 15, 15, 0.8)
+    ),
+    url(../img/mobile-phone.jpg);
   }
 
 .four {
     transform: rotateY(270deg);
     z-index: 2;
-    background: linear-gradient(90deg,rgb(22, 112, 112),rgb(10, 143, 143));
+    /* background: linear-gradient(90deg,rgb(22, 112, 112),rgb(10, 143, 143)); */
+    background: linear-gradient(
+      0deg,
+      rgba(15, 15, 15, 0.8),
+      rgba(15, 15, 15, 0.8)
+    ),
+    url(../img/design.jpg);
   }
 
   /* Effect */
